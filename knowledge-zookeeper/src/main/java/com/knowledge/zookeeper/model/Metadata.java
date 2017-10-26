@@ -22,4 +22,9 @@ public class Metadata extends ZooId {
 		this.value = value;
 	}
 
+	@Override
+	public String toString() {
+		return "Metadata [name=" + name + ", value=" + value + ", id=" + id + "]";
+	}
+
 }

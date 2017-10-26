@@ -19,7 +19,6 @@ public class ZooMain {
 		m.setValue("100");
 		mcs.addListener(new ZooStorage<Metadata>(m, 0));
 		mcs.save(new ZooStorage<Metadata>(m, 0), PersistenceLevel.EPHEMERAL);
-		mcs.save(new ZooStorage<Metadata>(m, 0), PersistenceLevel.EPHEMERAL);
 		System.out.println("Created....");
 	}
 }
